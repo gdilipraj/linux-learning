@@ -53,3 +53,56 @@ To create a new directory (folder) in your current location, use the `mkdir` com
 ``` bash
 mkdir my_new_folder
 ```
+
+### 🚚 Moving & Renaming (mv)
+The mv command is a two-in-one tool. It is used to move files to different folders and is also the standard way to rename files in Linux.
+
+| Command | Action | Description |
+| :--- | :--- | :--- |
+| `mv` | Move / Rename | Relocates or changes the name of files and folders. |
+
+**Example 1: Renaming a file**
+``` bash
+mv  old_filename.txt   new_filename.txt
+```
+
+**Example 2: Moving a file into a folder**
+``` bash
+mv  file.txt   folder_name/
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
