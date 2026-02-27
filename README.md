@@ -31,7 +31,7 @@ echo "hello world"
 
 ---
 
-### 🚀 Directory Navigation (`cd`)
+### 🚀 Directory Navigation `cd`
 
 | Command | Action | Description |
 | :--- | :--- | :--- |
@@ -54,7 +54,20 @@ To create a new directory (folder) in your current location, use the `mkdir` com
 mkdir my_new_folder
 ```
 
-### 🚚 Moving & Renaming (mv)
+### ✍️ File Creation `touch`
+The `touch` command was originally meant to update the timestamp of a file, but if the file does not exist, Linux creates a blank one.
+
+| Command | Action | Description |
+| :--- | :--- | :--- |
+| `touch` | Create / Update |	Creates a blank file or updates the timestamp of an existing one. |
+
+**Example Usage:**
+``` bash
+touch my_new_file.txt
+```
+
+
+### 🚚 Moving & Renaming `mv`
 The mv command is a two-in-one tool. It is used to move files to different folders and is also the standard way to rename files in Linux.
 
 | Command | Action | Description |
@@ -72,15 +85,33 @@ mv  file.txt   folder_name/
 ```
 
 
+### 👯 Copying Files `cp`
+Use this command to create a duplicate of a file or directory in a different location.
 
+| Command | Action | Description |
+| :--- | :--- | :--- |
+| `cp` | Copy |	Duplicates files or directories to a new path. |
 
+**Example Usage:**
+```bash
+cp file.txt copy_of_file.txt
+``` 
 
+### 🗑️ Deleting Files `rm`
+This is used to remove files and directories. Warning: In Linux, this is permanent and there is no "Recycle Bin."
 
+| Command | Action | Description |
+| :--- | :--- | :--- |
+| `rm` | Remove	| Deletes files or directories permanently from the system. |
 
+**Example Usage:**
+```bash
+# To delete a file
+rm file.txt
 
-
-
-
+# To delete a folder (recursive)
+rm -r folder_name
+```
 
 
 
