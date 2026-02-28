@@ -125,7 +125,8 @@ In Linux, the > symbol acts like a funnel. It tells the system: "Take the output
 echo "Hello Linux" > myfile.txt
 ``` 
 
-
+### 📖 Reading File Content (less)
+To view the contents of a file directly in your terminal without opening an editor, you can use the less command. It is great for reading large files because it allows you to scroll up and down.
 
 
 
