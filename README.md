@@ -125,15 +125,30 @@ In Linux, the > symbol acts like a funnel. It tells the system: "Take the output
 echo "Hello Linux" > myfile.txt
 ``` 
 
-### 📖 Reading File Content (less)
-To view the contents of a file directly in your terminal without opening an editor, you can use the less command. It is great for reading large files because it allows you to scroll up and down.
+### 📖 Reading File Content `less`
+To view the contents of a file directly in your terminal without opening an editor, you can use the `less` command. It is great for reading large files because it allows you to scroll up and down.
 
+| Command | Action | Description |
+| :--- | :--- | :--- |
+| `less` | Read File |	Opens a file for interactive reading in the terminal. |
 
+**Example Usage:**
+```bash
+less myfile.txt
+``` 
 
+### 💻 System Information `uname`
+The uname command is used to display essential details about your operating system and hardware. It is the quickest way to identify the system you are working on.
 
+| Command | Action | Description |
+| :--- | :--- | :--- |
+| `uname` | System Info	| Displays the operating system name. |
+| `uname -a` |	All Info |	Shows detailed kernel version, processor type, and OS details.
 
-
-
+**Example Usage:**
+```bash
+uname -a
+``` 
 
 
 
