@@ -167,10 +167,27 @@ cat myfile.txt
 cat file1.txt file2.txt > combined.txt
 ``` 
 
+### 🔗 Linking Files `ln`
+The ln command is used to create links (shortcuts) between files. This is useful for accessing the same file from different locations without making multiple copies.
 
+| Command | Action | Description |
+| :--- | :--- | :--- |
+| `ln -s` |	Soft Link |	Creates a symbolic link (shortcut) to a file or folder. |
+| `ln` | Hard Link |	Creates a direct link to the data on the disk. |
 
+### 💡 Soft Links vs. Hard Links
+Soft Link `-s`: The most common type. It acts like a Windows shortcut; if you delete the original file, the link breaks.
 
+Hard Link: A direct pointer to the file's data. If you delete the original file, the hard link still works.
 
+**Example Usage:**
+```bash
+# To create a soft link (shortcut)
+ln -s original_file.txt shortcut_link
+
+# To create a hard link
+ln original_file.txt hard_link
+``` 
 
 
 
