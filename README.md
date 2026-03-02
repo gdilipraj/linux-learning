@@ -143,16 +143,29 @@ The uname command is used to display essential details about your operating syst
 | Command | Action | Description |
 | :--- | :--- | :--- |
 | `uname` | System Info	| Displays the operating system name. |
-| `uname -a` |	All Info |	Shows detailed kernel version, processor type, and OS details.
+| `uname -a` |	All Info |	Shows detailed kernel version, processor type, and OS details. |
 
 **Example Usage:**
 ```bash
 uname -a
 ``` 
 
+### 🐱 Concatenate Files (cat)
+The cat command is one of the most frequently used tools in Linux. While its primary job is to display the entire content of a file to the terminal, it is also used to combine multiple files into one.
 
+| Command | Action | Description |
+| :--- | :--- | :--- |
+| `cat` |	Read Content | Displays the full content of a file in the terminal. |
+| `cat file1 file2` |	Combine Files |	Displays the content of multiple files sequentially. |
 
+**Example Usage:**
+```bash
+# To view a file's content
+cat myfile.txt
 
+# To combine two files into a new one
+cat file1.txt file2.txt > combined.txt
+``` 
 
 
 
