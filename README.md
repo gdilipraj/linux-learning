@@ -114,7 +114,7 @@ rm -r folder_name
 ```
 
 ### 🖋️ File Redirection `>`
-In Linux, the > symbol acts like a funnel. It tells the system: "Take the output from the command on the left and pour it into the file on the right." Note: This will overwrite any existing content in the file.
+In Linux, the `>` symbol acts like a funnel. It tells the system: "Take the output from the command on the left and pour it into the file on the right." Note: This will overwrite any existing content in the file.
 | Command | Action | Description |
 | :--- | :--- | :--- |
 | `>` | Redirection |	Redirects output to a file (overwrites existing content). |
