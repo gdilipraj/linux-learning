@@ -68,7 +68,7 @@ touch my_new_file.txt
 
 
 ### 🚚 Moving & Renaming `mv`
-The mv command is a two-in-one tool. It is used to move files to different folders and is also the standard way to rename files in Linux.
+The `mv` command is a two-in-one tool. It is used to move files to different folders and is also the standard way to rename files in Linux.
 
 | Command | Action | Description |
 | :--- | :--- | :--- |
