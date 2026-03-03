@@ -98,7 +98,7 @@ cp file.txt copy_of_file.txt
 ``` 
 
 ### 🗑️ Deleting Files `rm`
-This is used to remove files and directories. Warning: In Linux, this is permanent and there is no "Recycle Bin."
+It is used to remove files and directories. Warning: In Linux, this is permanent and there is no "Recycle Bin."
 
 | Command | Action | Description |
 | :--- | :--- | :--- |
