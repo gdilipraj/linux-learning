@@ -151,7 +151,7 @@ uname -a
 ``` 
 
 ### 🐱 Concatenate Files `cat`
-The cat command is one of the most frequently used tools in Linux. While its primary job is to display the entire content of a file to the terminal, it is also used to combine multiple files into one.
+The `cat` command is one of the most frequently used tools in Linux. While its primary job is to display the entire content of a file to the terminal, it is also used to combine multiple files into one.
 
 | Command | Action | Description |
 | :--- | :--- | :--- |
