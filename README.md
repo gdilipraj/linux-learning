@@ -138,7 +138,7 @@ less myfile.txt
 ``` 
 
 ### 💻 System Information `uname`
-The uname command is used to display essential details about your operating system and hardware. It is the quickest way to identify the system you are working on.
+The `uname` command is used to display essential details about your operating system and hardware. It is the quickest way to identify the system you are working on.
 
 | Command | Action | Description |
 | :--- | :--- | :--- |
