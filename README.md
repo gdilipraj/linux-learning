@@ -193,7 +193,13 @@ ln original_file.txt hard_link
 
 The `nano` command opens a simple, user-friendly text editor directly inside your terminal. It is perfect for making quick changes to configuration files or writing scripts without leaving the command line.
 
+
+
 | Command | Action | Description |
 | :--- | :--- | :--- |
 | `nano` |	Text Editor |	Opens a file for editing in the terminal. |
 
+**Example Usage:**
+```bash
+nano my_script.sh
+``` 
