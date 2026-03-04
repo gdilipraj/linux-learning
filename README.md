@@ -189,6 +189,7 @@ ln -s original_file.txt shortcut_link
 ln original_file.txt hard_link
 ``` 
 
+### 📝 Terminal Text Editor (nano)
 
 
 
