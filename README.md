@@ -203,3 +203,5 @@ The `nano` command opens a simple, user-friendly text editor directly inside you
 ```bash
 nano my_script.sh
 ``` 
+
+now that we know how basic linus command works.
