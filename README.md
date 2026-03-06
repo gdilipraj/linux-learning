@@ -206,3 +206,5 @@ nano my_script.sh
 
 now that we know how basic linus command works.
 now its time to integrate all of them together work 
+
+now lets look back to see what it actually means to combine them all together
