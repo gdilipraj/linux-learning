@@ -213,3 +213,4 @@ now lets look back to see what it actually means to combine them all together
 ```bash
 rm f*
 ``` 
+the `*` here means all the folders or files starting with f needs to me removed 
