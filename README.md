@@ -217,6 +217,3 @@ the `*` here means all the folders or files starting with f needs to me removed
 
 **Example Usage:**
 ```bash
-rm f*
-``` 
-the `*` here means all the folders or files just that
